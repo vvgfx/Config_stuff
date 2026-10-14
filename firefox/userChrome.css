@@ -66,7 +66,7 @@
 #context-bookmarklink, /*bookmark link in context-menu*/
 #context-savelink, /*save link in context-menu*/
 #context-openlink, /*open link in new window in context-menu*/
-/* #context-openlinkprivate, /*open link in new private window in context-menu*/ */
+/* #context-openlinkprivate, /*open link in new private window in context-menu*/
 #context-print-selection, /*print selection in context-menu*/
 #context-viewsource, /*view page source in context-menu*/
 #context-sendpagetodevice, /*send page to device in context-menu*/
@@ -87,3 +87,19 @@
 #ublock0_raymondhill_net-menuitem-_uBlock0-blockElement, /*ublock in context-menu*/
 #placesContext_open /*open in bookmarks context-menu*/
 {display:none!important}
+
+/* media controls - annoying on youtube */
+#context-media-play,
+#context-media-pause,
+#context-media-mute,
+#context-media-unmute,
+#context-media-playbackrate,
+#context-media-loop,
+#context-media-showcontrols,
+#context-media-hidecontrols,
+#context-video-fullscreen,
+#context-video-pictureinpicture,
+#context-media-sep-video-commands,
+#context-media-sep-commands {
+display: none !important;
+}
