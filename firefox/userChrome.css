@@ -54,3 +54,36 @@
 {
     display: none !important;
 }
+
+
+#pageAction-urlbar-_testpilot-containers, /*open in container in urlbar*/
+#context-pocket, /*pocket in context-menu*/
+#context-savelinktopocket, /*save link to pocket in context-menu*/
+#context-savepage, /*savepage in context-menu*/
+#context-sendimage,  /*email image in context-menu*/
+#context-setDesktopBackground, /*set image as desktop background in context-menu*/
+#context-sep-setbackground, /*set image as desktop background seperator in context-menu*/
+#context-bookmarklink, /*bookmark link in context-menu*/
+#context-savelink, /*save link in context-menu*/
+#context-openlink, /*open link in new window in context-menu*/
+/* #context-openlinkprivate, /*open link in new private window in context-menu*/ */
+#context-print-selection, /*print selection in context-menu*/
+#context-viewsource, /*view page source in context-menu*/
+#context-sendpagetodevice, /*send page to device in context-menu*/
+#context-sep-sendpagetodevice,  /*send page to device seperator in context-menu*/
+#context-sendlinktodevice, /*send link to device in context-menu*/
+#context-viewpartialsource-selection, /*view selection source in context-menu*/
+#context-inspect-a11y, /*inspect accessibility properties in context-menu*/
+#context-undo, /*undo in context-menu*/
+#context-redo, /*redo in context-menu*/
+#context-sep-redo, /*redo seperator in context-menu*/
+.titlebar-spacer[type="pre-tabs"], /*space pre-tabs in context-menu*/
+.titlebar-spacer[type="post-tabs"], /*space post-tabs in context-menu*/
+#context_bookmarkTab, /*bookmark tab in tab context-menu*/
+#context_reloadTab, /*reload tab in tab context-menu*/
+#context_moveTabOptions, /*move tab in tab context-menu*/
+#context_sendTabToDevice, /*send tab to device in tab context-menu*/
+#mozilla_cc3_internetdownloadmanager_com-menuitem-8, /*idm in context-menu*/
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement, /*ublock in context-menu*/
+#placesContext_open /*open in bookmarks context-menu*/
+{display:none!important}
